@@ -15,4 +15,12 @@ function range(start, end) {
   }
   return result;
 }
-module.exports = loopingTriangle;
+
+function sum(arr) {
+  let result = 0;
+  arr.forEach(element => {
+    result+=element;
+  });
+  return result
+}
+
