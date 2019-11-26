@@ -23,4 +23,14 @@ function sum(arr) {
   });
   return result
 }
+//need to finish this one off
+function newRange(start, end, step = start < end ? 1 : -1) {
+  let result = [];
 
+if(step > 0) {
+  for(let i = start; i <= end; i+=step) result.push(i)
+} else {
+  for(let i = start; i >= end; i+=step) result.push(i)
+}
+  return result;
+}
